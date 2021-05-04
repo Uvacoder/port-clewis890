@@ -26,7 +26,7 @@ export default function Portfolios() {
     const controlColumns = () => {
         setWindowWidth(window.innerWidth);
 
-        if (windowWidth > = 992) {
+        if (windowWidth >= 992) {
             setPortfolioColumns(3);
         } else if (windowWidth <= 991 && windowWidth > 767) {
             setPortfolioColumns(3);
@@ -41,14 +41,9 @@ export default function Portfolios() {
     });
     
 
-    useEffect(() => {
-        controlColumns();
-    }, [windowWidth, controlColumns]);
-
-    useCallback(() => {
-        controlColumns();
-    });
-
+    // useEffect(() => {
+    //     controlColumns();
+    // }, [windowWidth]);
 
     return (
         <>
