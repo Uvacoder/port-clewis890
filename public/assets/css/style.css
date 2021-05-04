@@ -188,6 +188,25 @@ p {
   cursor: pointer;
 }
 
+@media (min-width: 320px) {
+  .ct-btn {
+    font-size: 0.7em;
+    width: 120px;
+  }
+}
+@media (min-width: 350px) {
+  .ct-btn {
+    font-size: 0.65em;
+     
+  }
+}
+@media (min-width: 550px) {
+  .ct-btn {
+    font-size: 0.8em;
+    width: 95%;
+  }
+}
+
 .ct-btn:hover {
   background: #e4aa48;
   color: #000;
@@ -314,6 +333,10 @@ p {
 .dropdown-menu {
     background-color: rgba(67, 67, 70, 0.3) !important;
     border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 .dropdown-menu a {
   background-color: transparent !important;
@@ -511,6 +534,16 @@ p {
 .project-card p {
   margin-bottom: 0;
 }
+
+@media (max-width: 576px) {
+  .project-card {
+    height: 100%;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+}
+
 .project-card:hover .skill-project h4,
 .project-card:hover .skill-project p {
   color: #e4aa48;
@@ -1205,6 +1238,11 @@ p {
 
   .project-card .icon img {
     width: 30%;
+  }
+  @media (max-width: 576px) {
+    .react-symbol img {
+      width: 75%;
+    }
   }
 
   .project-card {

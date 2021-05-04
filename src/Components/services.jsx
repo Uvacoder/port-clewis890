@@ -28,8 +28,8 @@ export default function Services() {
                 <div className="row service-row mt-45">
                     <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
                         <div className="project-card text-center bgp" style={{ boxShadow: '0 2px 8px grey', borderRadius: '8px', backgroundColor: '#010101' }}>
-                            <div className="icon mb-20">
-                                <img src={reactlogo} alt="design" style={{ backgroundColor: '#010101', width: '100%' }} />
+                            <div className="icon react-symbol mb-20">
+                                <img src={reactlogo} alt="design" style={{ backgroundColor: '#010101', width: '75%' }} />
                                 {/* <img className="d-none" src={reactlogo} alt="design" /> */}
                             </div>
                             <div className="skill-project">
@@ -37,7 +37,7 @@ export default function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
+                    <div className="col-md-3 col-sm-6 mb-4 mb-md-0" >
                         <div className="project-card text-center bgp" style={{ boxShadow: '0 2px 8px grey', borderRadius: '8px', backgroundColor: '#fff' }}>
                             <div className="icon mb-20">
                                 <img src={nextjs} alt="next js" style={{ width: '100%' }}  />
@@ -51,7 +51,7 @@ export default function Services() {
                     </div>
                      <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
                         <div className="project-card text-center bgp" style={{ boxShadow: '0 2px 8px grey', borderRadius: '8px', overflow: 'hidden', backgroundColor: '#fff' }}>
-                            <div className="icon mb-20">
+                            <div className="icon mb-10">
                                 <img src={podcast} alt="podcast" style={{ height: '80%', width: '100%', color: 'white' }} />
                             </div>
                             <div className="skill-project">
@@ -75,10 +75,8 @@ export default function Services() {
                     
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center', margin: '40px auto', flexDirection: 'column' }}>
-                <h4 style={{ margin: '40px auto', width: 'fit-content', color: 'lightslategray' }}>Languages I speak:</h4>
-                        <p style={{ margin: '0 auto', fontSize: '1.2em' }}>HTML, CSS, Sass, JavaScript, ReactJS, NextJS</p>
-                {/* <h4 style={{ margin: '40px auto', width: 'fit-content', color: 'lightslategray' }}>Dev Tools I use:</h4>
-                        <p style={{ margin: '0 auto', fontSize: '1.2em' }}>GitHub, Terminal, VS Code</p> */}
+                    <h4 style={{ margin: '40px auto', width: 'fit-content', color: 'lightslategray' }}>Languages I speak:</h4>
+                        <p style={{ margin: '0 auto', fontSize: '1.2em', textAlign: 'center' }}>HTML, CSS, Sass, JavaScript, ReactJS, NextJS</p>
                 </div>
             </div>
             <div className="counter-area mt-45">

@@ -7,6 +7,7 @@ FaLongArrowAltLeft,
 FaLongArrowAltRight,
 // FaLongArrowAltDown
  } from "react-icons/fa";
+
 import { Link } from 'react-scroll';
 
 export default function slider() {
@@ -57,7 +58,7 @@ export default function slider() {
                                     <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5">
                                         <div className="slider-left">
                                             <div className="name">
-                                                <h1>Clark <br /> Lewis<span className="pc">.</span></h1>
+                                                <h1 style={{ '@media (max-width: 550px)': { fontSize: '1.7em' } }}>Clark <br /> Lewis<span className="pc">.</span></h1>
                                             </div>
                                             <div className="dash"></div>
                                             <div className="social-links mb-40">
@@ -66,7 +67,9 @@ export default function slider() {
                                                 {/* <a href="https://behance.net/tortoizthemes">Behance</a> | <a
                                                     href="https://dribbble.com/TortoizTeam">Dribbble</a> */}
                                             </div>
-                                            <div className="slider-cta">
+                                            <div className="slider-cta"    
+                                            style={{ '@media (max-width: 550px)': { fontSize: '0.6em', width: '50px' } }}
+>
                                                 <Link 
                                                 to="contact" 
                                                 className="ct-btn" 
@@ -79,8 +82,11 @@ export default function slider() {
                                         </div>
                                     </div>
                                     <div className="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-7 pl-0">
-                                        <div className=" profile-pic" >
-                                            <img className="img-fluid" src={sliderImg01} alt="Clark Lewis" style={{ borderRadius: '50px', marginBottom: '40px', boxShadow: '0px 1px 10px #222' }} />
+                                        <div className="profile-pic">
+                                            <img 
+                                            className="img-fluid" 
+                                            src={sliderImg01} alt="Clark Lewis" 
+                                            style={{ borderRadius: '50px',  boxShadow: '0px 1px 10px #222',  }} />
                                         </div>
                                     </div>
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8 slider-area-intro">
