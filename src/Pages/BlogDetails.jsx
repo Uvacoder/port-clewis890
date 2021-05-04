@@ -5,6 +5,7 @@ import PostContent from "../Components/PostContent";
 import PageHeader from "../Components/PageHeader";
 import blogPosts from "../data/blog_posts";
 import Newsletter from "../Components/newsletter";
+
 export default function BlogDetails(props) {
 
    const { Id } = useParams();
@@ -15,7 +16,7 @@ export default function BlogDetails(props) {
       const postData = blogPosts.posts.find(post=>post.id === Id);
       setPost(postData);
       window.scrollTo(0, 0);
-   }, [pathname]);
+   }, [pathname, Id]);
 
     return (
        

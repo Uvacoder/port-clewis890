@@ -5,7 +5,7 @@ from 'react';
 import { Navbar, 
     // NavDropdown, 
     Nav } from "react-bootstrap";
-import { FaLongArrowAltDown } from "react-icons/fa";
+// import { FaLongArrowAltDown } from "react-icons/fa";
 import { FaBars, 
     // FaSkype, FaFacebookF, 
     FaTwitter  } from "react-icons/fa";

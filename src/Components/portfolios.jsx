@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Col, Row, Nav,  Tab } from "react-bootstrap";
 import Masonry from "react-responsive-masonry"
 import SinglePortfolio from "../SingleFeatures/SinglePortfolio";
@@ -23,10 +23,10 @@ export default function Portfolios() {
     const [portfolioColumns, setPortfolioColumns] = useState(3);
     const onWindowResize = useGlobalEvent('resize');
 
-    const controlColumns = ()=>{
+    const controlColumns = () => {
         setWindowWidth(window.innerWidth);
 
-        if (windowWidth >= 992) {
+        if (windowWidth > = 992) {
             setPortfolioColumns(3);
         } else if (windowWidth <= 991 && windowWidth > 767) {
             setPortfolioColumns(3);
@@ -34,14 +34,20 @@ export default function Portfolios() {
         if (windowWidth <= 767) {
             setPortfolioColumns(1);
         }
-    }
+    };
+    
     onWindowResize((event) => {
         controlColumns();
     });
     
-    useEffect(()=>{
+
+    useEffect(() => {
         controlColumns();
-    }, [windowWidth]);
+    }, [windowWidth, controlColumns]);
+
+    useCallback(() => {
+        controlColumns();
+    });
 
 
     return (
