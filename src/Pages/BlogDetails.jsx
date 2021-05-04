@@ -12,7 +12,7 @@ export default function BlogDetails(props) {
    const { pathname } = useLocation();
    
    useEffect(()=>{
-      const postData = blogPosts.posts.find(post=>post.id == Id);
+      const postData = blogPosts.posts.find(post=>post.id === Id);
       setPost(postData);
       window.scrollTo(0, 0);
    }, [pathname]);

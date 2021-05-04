@@ -1,11 +1,11 @@
 import React from 'react';
 import {
 FaEnvelope, 
-FaPhone,
-FaSkype,
+// FaPhone,
+// FaSkype,
 FaTwitter,
-FaDribbble,
-FaFacebookF, 
+// FaDribbble,
+// FaFacebookF, 
 FaLinkedin} from "react-icons/fa";
 import SectionTitle from "./section_title";
 

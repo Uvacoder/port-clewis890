@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiPlus } from "react-icons/fi";
+// import { FiPlus } from "react-icons/fi";
+
 export default function SinglePortfolio(props) {
     const { portfolioImg, title, description, portfolioLink, linkDescription } = props;
     return (

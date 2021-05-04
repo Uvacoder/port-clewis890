@@ -5,7 +5,7 @@ import sliderImg01 from "../assets/images/slider/clark.jpg";
 import { 
 FaLongArrowAltLeft, 
 FaLongArrowAltRight,
-FaLongArrowAltDown
+// FaLongArrowAltDown
  } from "react-icons/fa";
 import { Link } from 'react-scroll';
 

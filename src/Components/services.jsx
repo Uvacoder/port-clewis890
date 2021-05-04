@@ -11,8 +11,9 @@ import nextjs from "../assets/images/icons/nextjs.png"
 import podcast from "../assets/images/icons/podcast3.svg"
 import materialui from "../assets/images/logo/materialui.png"
 
-import SingleCountdown from "../SingleFeatures/SIngleCountdown";
+// import SingleCountdown from "../SingleFeatures/SIngleCountdown";
 import SectionTitle from "./section_title";
+
 export default function Services() {
     return (
         <div className="services-area section-ptb bgs" id="services">

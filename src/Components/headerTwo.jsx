@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import logoImg from "../assets/images/logo/logo.png";
 import { Navbar, NavDropdown, Nav } from "react-bootstrap";
 import { FaLongArrowAltDown } from "react-icons/fa";
@@ -17,7 +17,7 @@ export default function HeaderTwo() {
                             <Navbar collapseOnSelect expand="lg" className="p-0">
                                 <div className="logo-area">
                                     <ReactLink to="/">
-                                        <img className="img-fluid" src={logoImg} />
+                                        <img className="img-fluid" src={logoImg} alt="menu logo" />
                                     </ReactLink>
                                 </div>
                                 <Navbar.Toggle aria-controls="responsive-navbar-nav">

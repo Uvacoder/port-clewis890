@@ -15,7 +15,7 @@ export default function footer() {
                 All Rights Reserved</p> 
             </div>
             <div className="back-to-top">
-                <a href="#" onClick={goHome}><i><FaAngleUp/></i></a>
+                <a href="/" onClick={goHome}><i><FaAngleUp/></i></a>
             </div>
         </div>
     )

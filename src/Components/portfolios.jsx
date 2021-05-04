@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Col, Row, Nav,  Tab } from "react-bootstrap";
 import Masonry from "react-responsive-masonry"
 import SinglePortfolio from "../SingleFeatures/SinglePortfolio";
-import portfolioImg_01 from "../assets/images/portfolio/1.png";
-import portfolioImg_02 from "../assets/images/portfolio/2.png";
-import portfolioImg_03 from "../assets/images/portfolio/3.png";
-import portfolioImg_04 from "../assets/images/portfolio/4.png";
-import portfolioImg_05 from "../assets/images/portfolio/5.jpg";
-import portfolioImg_06 from "../assets/images/portfolio/6.jpg";
+// import portfolioImg_01 from "../assets/images/portfolio/1.png";
+// import portfolioImg_02 from "../assets/images/portfolio/2.png";
+// import portfolioImg_03 from "../assets/images/portfolio/3.png";
+// import portfolioImg_04 from "../assets/images/portfolio/4.png";
+// import portfolioImg_05 from "../assets/images/portfolio/5.jpg";
+// import portfolioImg_06 from "../assets/images/portfolio/6.jpg";
 import tuani from "../assets/images/portfolio/tuani.png";
 import dablonyc from "../assets/images/portfolio/dablonyc.png";
 import antoniaeclark from "../assets/images/portfolio/antoniaeclark.png";
