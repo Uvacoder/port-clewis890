@@ -90,30 +90,26 @@ export default function Portfolios() {
                                              <SinglePortfolio 
                                              portfolioImg={cgl} 
                                              title="Personal Website" 
-                                             description=""
                                              portfolioLink="http://www.clarkglewis.com"
                                              linkDescription="Personal Website"
                                               />
                                              <SinglePortfolio 
                                              portfolioImg={antoniaeclark} 
                                              title="Wedding Site"
-                                             description=""
-                                             portfolioLink="https://antoniaeclark.com"
+                                             portfolioLink="https://www.antoniaeclark.com"
                                              linkDescription="Wedding Site"
                                              />                                                  
                                              <SinglePortfolio 
                                              portfolioImg={tuani} 
                                              title="Tuani With Purpose"
                                              linkDescription="Tuani With Purpose"
-                                             portfolioLink="https://tuaniwithpurpose.com"
-                                             description=""
+                                             portfolioLink="https://www.tuaniwithpurpose.com"
                                               />
                                              <SinglePortfolio 
                                              portfolioImg={dablonyc} 
                                              title="DAB Law Office"
                                              linkDescription="DAB Law Office"
-                                             portfolioLink="https://dablonyc.com"
-                                             description=""
+                                             portfolioLink="https://www.dablonyc.com"
                                               />     
                                                
                                         </Masonry>
