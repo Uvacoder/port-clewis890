@@ -86,7 +86,7 @@ export default function slider() {
                                             <img 
                                             className="img-fluid" 
                                             src={sliderImg01} alt="Clark Lewis" 
-                                            style={{ borderRadius: '50px',  boxShadow: '0px 1px 10px #222',  }} />
+                                            style={{ borderRadius: '50px', boxShadow: '0px 1px 10px #222', marginBottom: '25px' }} />
                                         </div>
                                     </div>
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8 slider-area-intro">

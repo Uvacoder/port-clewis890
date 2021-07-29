@@ -50,7 +50,7 @@ export default function Services() {
                         </div>
                     </div>
                      <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
-                        <div className="project-card text-center bgp" style={{ boxShadow: '0 2px 8px grey', borderRadius: '8px', overflow: 'hidden', backgroundColor: '#fff' }}>
+                        <div className="project-card text-center bgp" style={{  padding: '30px', boxShadow: '0 2px 8px grey', borderRadius: '8px', overflow: 'hidden', backgroundColor: '#fff' }}>
                             <div className="icon mb-10">
                                 <img src={podcast} alt="podcast" style={{ height: '80%', width: '100%', color: 'white' }} />
                             </div>
@@ -61,7 +61,7 @@ export default function Services() {
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6 mb-4 mb-md-0">
-                        <div className="project-card text-center bgp" style={{ boxShadow: '0 2px 8px grey', borderRadius: '8px', backgroundColor: '#010101'  }}>
+                        <div className="project-card text-center bgp" style={{  padding: '20px', boxShadow: '0 2px 8px grey', borderRadius: '8px', backgroundColor: '#010101'  }}>
                             <div className="icon mb-20">
                                 <img src={materialui} alt="Material UI" style={{ width: '50%' }} />
                                 {/* <img className="d-none" src={servicIcon_03} alt="design" /> */}
@@ -75,14 +75,16 @@ export default function Services() {
                     
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center', margin: '40px auto', flexDirection: 'column' }}>
-                    <h4 style={{ margin: '40px auto', width: 'fit-content', color: 'lightslategray' }}>Languages I speak:</h4>
+                    <h4 style={{ margin: '40px auto', width: 'fit-content', color: 'lightslategray' }}>Professional Toolkit</h4>
                         <p style={{ margin: '0 auto', fontSize: '1.2em', textAlign: 'center' }}>HTML, CSS, Sass, JavaScript, ReactJS, NextJS</p>
+                    <h4 style={{ margin: '40px auto', textAlign: 'center', width: 'fit-content', color: 'lightslategray' }}>Project Management / Miscellaneous</h4>
+                        <p style={{ margin: '0 auto', fontSize: '1.2em', textAlign: 'center' }}>GitHub, Heroku, Netlify, Vercel</p>
                 </div>
             </div>
             <div className="counter-area mt-45">
                 <div className="container">
                     <div className="row" >
-                    
+
                         {/* <SingleCountdown extraClass="mb-4 mb-md-0" title="Years of Experience" start={0} end={2} duration={5}/> 
                           <SingleCountdown extraClass="mb-4 mb-md-0" title="Satisfied Customers" start={0} end={200} duration={100}/>
                         <SingleCountdown extraClass="mb-4 mb-md-0" title="Design Items" start={0} end={769} duration={100}/> 

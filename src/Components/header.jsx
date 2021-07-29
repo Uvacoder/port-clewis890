@@ -1,7 +1,4 @@
-import React
-// {useState} 
-from 'react';
-// import logoImg from "../assets/images/logo/logo.png";
+import React from 'react';
 import { Navbar, 
     // NavDropdown, 
     Nav } from "react-bootstrap";
@@ -15,7 +12,6 @@ import { Link as ReactLink } from "react-router-dom";
 export default function Header() {
     
     // const navDropdownTitle = (<>Blog <FaLongArrowAltDown/></>);
-
     return (
         <div className="header-area">
             <div className="container mt-60">
